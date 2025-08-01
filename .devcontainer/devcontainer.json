@@ -1,0 +1,12 @@
+{
+  "name": "Mi proyecto desde Docker",
+  "image": "proyectoprofundizacion",
+  "workspaceFolder": "/app",
+  "settings": {
+    "python.defaultInterpreterPath": "/usr/local/bin/python"
+  },
+  "postCreateCommand": "pip install notebook jupyterlab",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/app,type=bind"
+  ]
+}

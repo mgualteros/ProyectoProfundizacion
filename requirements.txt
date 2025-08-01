@@ -1,0 +1,14 @@
+pandas==2.1.4
+numpy==1.23.5
+tensorflow==2.12.0
+matplotlib==3.7.5
+streamlit==1.45.0
+pymongo==4.11.2
+ollama==0.4.7
+scikit-learn==1.4.2
+transformers==4.41.1
+sentence-transformers==3.2.0
+python-dotenv==1.0.1
+spacy==3.8.4
+es-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/es_core_news_sm-3.8.0/es_core_news_sm-3.8.0-py3-none-any.whl
+seaborn==0.13.2
